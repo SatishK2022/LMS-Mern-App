@@ -1,10 +1,13 @@
-function App() {
+import { Outlet } from "react-router-dom"
 
+function AppLayout() {
   return (
     <>
-      <h1>LMS Project</h1>
+      {/* <Header /> */}
+      <Outlet />
+      {/* <Footer /> */}
     </>
   )
 }
 
-export default App
+export default AppLayout
