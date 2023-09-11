@@ -11,16 +11,16 @@ const Footer = () => {
                 Copyright {year} | All rights reserved
             </section>
             <section className="flex items-center justify-center gap-5 text-2xl text-white">
-                <a href="#" className="hover:text-blue-500 transition-all ease-in-out duration-300">
+                <a href="#" className="hover:text-orange-500 transition-all ease-in-out duration-300">
                     <BsFacebook />
                 </a>
-                <a href="#" className="hover:text-pink-500 transition-all ease-in-out duration-300">
+                <a href="#" className="hover:text-orange-500 transition-all ease-in-out duration-300">
                     <BsInstagram />
                 </a>
-                <a href="#" className="hover:text-blue-500 transition-all ease-in-out duration-300">
+                <a href="#" className="hover:text-orange-500 transition-all ease-in-out duration-300">
                     <BsLinkedin />
                 </a>
-                <a href="#" className="hover:text-blue-500 transition-all ease-in-out duration-300">
+                <a href="#" className="hover:text-orange-500 transition-all ease-in-out duration-300">
                     <BsTwitter />
                 </a>
             </section>
