@@ -1,7 +1,6 @@
 import "./index.css";
 
 import ReactDOM from "react-dom/client";
-import { Toaster } from "react-hot-toast";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import AppLayout from "./App.jsx";
