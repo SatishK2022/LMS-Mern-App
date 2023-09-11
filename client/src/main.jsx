@@ -11,17 +11,10 @@ const router = createBrowserRouter([
     path: "/",
     element: <AppLayout />,
     children: [
-      {
-        path: "",
-        element: <AppLayout />,
-      },
     ],
-  }
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <>
-    <RouterProvider router={router} />
-    <Toaster />
-  </>
+  <RouterProvider router={router} />
 );
