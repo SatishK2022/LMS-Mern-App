@@ -11,15 +11,15 @@ const Home = () => {
 
                 <div className="space-x-6">
                     <Link to="/courses">
-                        <button className="py-3 px-5 bg-orange-500 font-semibold rounded-md text-lg cursor-pointer hover:bg-orange-600 transition duration-300">Explore Courses</button>
+                        <button className="py-3 px-5 bg-orange-500 font-semibold rounded-md text-base cursor-pointer hover:bg-orange-600 transition duration-300">Explore Courses</button>
                     </Link>
                     <Link to="/contact">
-                        <button className="py-3 px-5 border-2 border-orange-500 font-semibold rounded-md text-lg cursor-pointer hover:bg-orange-500 transition duration-300">Contact Us</button>
+                        <button className="py-3 px-5 border-2 border-orange-500 font-semibold rounded-md text-base cursor-pointer hover:bg-orange-500 transition duration-300">Contact Us</button>
                     </Link>
                 </div>
             </div>
             <div className="w-full sm:w-1/2 flex items-center justify-center">
-                <img src={homePageMainImage} alt="Home page" />
+                <img className="w-4/5" src={homePageMainImage} alt="Home page" />
             </div>
         </div>
     )
