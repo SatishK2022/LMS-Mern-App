@@ -5,6 +5,7 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 
 import AppLayout from "./App.jsx";
 import AboutUs from "./pages/AboutUs";
+import ContactUs from "./pages/ContactUs";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 
@@ -14,8 +15,9 @@ const router = createBrowserRouter(
       <Route path="/" element={<AppLayout />}>
         <Route path="" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
+        <Route path="/contact" element={<ContactUs />} />
       </Route>
-      <Route path="*" element={<NotFound />}/>
+      <Route path="*" element={<NotFound />} />
     </>
   )
 );
